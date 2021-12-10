@@ -9,6 +9,7 @@ https://meetup.unity3d.jp/jp/events/1337
 
 Unidux を利用した状態制御・画面遷移機構のサンプルプロジェクトです．</br>
 UniDi は Zenject をリファクタリングしたリポジトリで，実質 Zenject と同じです．
+内部で利用している素材はフリー素材です．
 
 ## Dependencies
 
