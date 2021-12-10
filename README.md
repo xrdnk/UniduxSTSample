@@ -2,7 +2,7 @@
 
 ## Description
 
-Unidux を利用した状態制御・画面遷移機構のサンプルプロジェクトです．
+Unidux を利用した状態制御・画面遷移機構のサンプルプロジェクトです．</br>
 UniDi は Zenject をリファクタリングしたリポジトリで，実質 Zenject と同じです．
 
 ## Dependencies
