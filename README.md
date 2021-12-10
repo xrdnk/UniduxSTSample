@@ -34,10 +34,10 @@ Copyright: UniDi contributors. All rights reserved. Version 1, 12 April 2021
 
 UniDi is licensed under the terms of the Apache 2.0 license, except for parts of
 
-'Zenject' that were contributed under the Zenject license (see below).
-'Extenject' that were contributed under the Extenject license (see below).
-'Lightweight IoC Container for Unity3D' that were contributed under the Lightweight IoC Container for Unity3D license (see below).
-UniDi's license follows:
+'Zenject' that were contributed under the Zenject license (see below).</br>
+'Extenject' that were contributed under the Extenject license (see below).</br>
+'Lightweight IoC Container for Unity3D' that were contributed under the Lightweight IoC Container for Unity3D license (see below).</br>
+UniDi's license follows:</br>
 
 === Apache License Version 2.0, January 2004 http://www.apache.org/licenses
 
