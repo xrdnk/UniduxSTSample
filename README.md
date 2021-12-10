@@ -1,75 +1,13 @@
-# UniduxSceneTransitionSample
+# Unidux Scene Transition Sample
 
 ## Description
 
-Unidux を利用した状態制御・画面遷移機構のサンプルプロジェクトです．  
-hands-on ブランチをチェックアウトすることで，穴埋め方式で Unidux (+α) のアウトプットを行うことができます．
-
-## Folder Configuration
-
-フォルダ配置は以下のようになっています．
-
-```
-Assets
-├─@UniduxSceneTransitionSample # 本プロジェクトのルート
-│  ├─ResourceFiles # リソースデータを格納するフォルダ
-│  │  ├─Images 
-│  │  └─Presets
-│  │  └─... (Prefabs, Audios, Materials, Animations etc...)
-│  ├─Scenes # Unity Scene を格納するフォルダ
-│  │  ├─Page # ページとして利用する Unity Scene を格納するフォルダ (View, Presenter, Navigation...)
-│  │  │  ├─01_Title
-│  │  │  ├─02_Main
-│  │  │  └─03_Result
-│  │  └─Domain # ドメインの塊として利用する Unity Scene を格納するフォルダ (Service, Repository, Application Layer, Infrastructure Layers...)
-│  │      ├─0A_AAAA 
-│  │      ├─0B_BBBB
-│  │      └─0Z_UniduxBase # Unidux Service Scene
-│  └─Scripts # スクリプトを格納するフォルダ
-│      ├─Progression # プログレッションレイヤー (初期化・終端処理・中断処理・実行処理等のライフサイクル処理を定める) 
-│      ├─Application # アプリケーションレイヤー 
-│      │  └─Transitioner # トランジショナー (画面遷移機構)
-│      ├─Domain # ドメインレイヤー (サービスやモデルデータを配置しています) <<Service は必要に応じてMonoBehaviourを継承する>>
-│      │  ├─MainService # メインゲーム画面に関するドメインフォルダ
-│      │  │  ├─PageData # ページデータ (Unidux画面遷移関連に利用)
-│      │  │  └─Service # メインサービス (ここにドメイン関心に関するサービスを置く)
-│      │  │  └─DataEntity # データエンティティ (データのエンティティを置く)
-│      │  │  └─Repository # リポジトリ (データベース情報・ScritableObject スクリプト等)
-│      │  │  └─...
-│      │  ├─Progression # プログレッションサービスに関するフォルダ
-│      │  ├─ResultService # リザルト画面に関するドメインフォルダ
-│      │  │  ├─PageData
-│      │  │  └─Service
-│      │  │  └─DataEntity
-│      │  │  └─Repository
-│      │  │  └─...
-│      │  └─Unidux # Unidux Domain Service を格納するフォルダです
-│      ├─LifeCycle # ライフサイクルレイヤー (ここでは MonoInstaller or LifetimeScope を配置し，初期化・終端処理の順番を定めます) <<MonoBehaviour継承>>
-│      │  ├─01_Title 
-│      │  ├─02_Main
-│      │  ├─03_Result
-│      │  └─0Z_UniduxBase
-│      └─Presention # プレゼンテーションレイヤー を格納するフォルダです 
-│          ├─Navigator # ナビゲータレイヤー (必要に応じて Scene 内に存在する View 群との間の行き来等の処理を司る) <<MonoBehaviourを継承しない>>
-│          │  └─01_Title
-│          ├─Presenter # プレゼンタレイヤー (View と Domain との橋渡し処理を司る) <<MonoBehaviourを継承しない>>
-│          │  ├─01_Title
-│          │  ├─02_Main
-│          │  └─03_Result
-│          └─View # ビューレイヤー (入力イベント・出力表示用の処理を司る) <<UIBehaviour継承>>
-│              ├─01_Title
-│              ├─02_Main
-│              └─03_Result
-└─ThirdParty # サードパーティアセット格納用フォルダ
-    ├─TextMesh Pro
-    └─...
-    └─...
-
-```
+Unidux を利用した状態制御・画面遷移機構のサンプルプロジェクトです．
+UniDi は Zenject をリファクタリングしたリポジトリで，実質 Zenject と同じです．
 
 ## Dependencies
 
-* Unity 2020.3.16f1
+* Unity 2021.2.5f1
 
 ## Third Party Assets
 
@@ -85,13 +23,18 @@ Copyright (c) 2018 Yoshifumi Kawai
 
 Copyright (c) 2019 Yoshifumi Kawai / Cysharp, Inc.
 
-* [Zenject 9.2.0](https://github.com/modesttree/Zenject)
+* [UniDi](https://github.com/UniDi/UniDi)
 
-Copyright (c) 2010-2021 Modest Tree Media Inc. ZENJECT and EXTENJECT are a trademark of Modest Tree Media Inc.
+Copyright: UniDi contributors. All rights reserved. Version 1, 12 April 2021
 
-* [MessagePipe 1.6.1](https://github.com/Cysharp/MessagePipe)
+UniDi is licensed under the terms of the Apache 2.0 license, except for parts of
 
-Copyright (c) 2021 Cysharp, Inc.
+'Zenject' that were contributed under the Zenject license (see below).
+'Extenject' that were contributed under the Extenject license (see below).
+'Lightweight IoC Container for Unity3D' that were contributed under the Lightweight IoC Container for Unity3D license (see below).
+UniDi's license follows:
+
+=== Apache License Version 2.0, January 2004 http://www.apache.org/licenses
 
 ## Licence
 
