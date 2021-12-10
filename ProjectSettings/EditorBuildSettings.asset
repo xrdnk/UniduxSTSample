@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/@UniduxSTSample/Scenes/EntryPoint/EntryPoint.unity
+    guid: 81af52e45723fce40a2e189339b462f7
+  - enabled: 1
+    path: Assets/@UniduxSTSample/Scenes/Permanent/CommonSystem.unity
+    guid: f4b4e8987fddf7647948feb517a813a8
+  - enabled: 1
+    path: Assets/@UniduxSTSample/Scenes/Permanent/UniduxService.unity
+    guid: c28212b5cfc218a4c9412c9c73e787d6
+  - enabled: 1
+    path: Assets/@UniduxSTSample/Scenes/Page/01_Title/Title_UI.unity
+    guid: 6776b90ecc8b4e0489e0d34dd3e0cd97
+  - enabled: 1
+    path: Assets/@UniduxSTSample/Scenes/Page/01_Title/Title_Logic.unity
+    guid: 6e3ed81d02985274797edc63f029450b
+  - enabled: 1
+    path: Assets/@UniduxSTSample/Scenes/Page/02_Main/Main_UI.unity
+    guid: 05a93d453a45c904ebfd3abc4b78c975
+  - enabled: 1
+    path: Assets/@UniduxSTSample/Scenes/Page/02_Main/Main_Logic.unity
+    guid: f3942951afd500f489b781fc21389fbd
+  - enabled: 1
+    path: Assets/@UniduxSTSample/Scenes/Page/02_Main/Main_Level.unity
+    guid: 43f35b7cb3d15fa45a9c07b33383e33c
+  - enabled: 1
+    path: Assets/@UniduxSTSample/Scenes/Page/03_Result/Result_UI.unity
+    guid: 54d568e2236108d42b919c24776ed973
+  - enabled: 1
+    path: Assets/@UniduxSTSample/Scenes/Page/03_Result/Result_Logic.unity
+    guid: 13ff83a653d8ddc4aa39c447900dfce4
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 2a1a40ec8846de7439e5233bb56db654, type: 2}
