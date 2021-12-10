@@ -23,7 +23,7 @@ Copyright (c) 2018 Yoshifumi Kawai
 
 Copyright (c) 2019 Yoshifumi Kawai / Cysharp, Inc.
 
-* [UniDi](https://github.com/UniDi/UniDi)
+* [UniDi 0.1.0-preview.1](https://github.com/UniDi/UniDi)
 
 Copyright: UniDi contributors. All rights reserved. Version 1, 12 April 2021
 
