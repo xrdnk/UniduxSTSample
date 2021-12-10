@@ -1,5 +1,10 @@
 # Unidux Scene Transition Sample
 
+本リポジトリは以下のLTで詳細を説明しています．</br>
+
+【年末だよ】Unity お・と・なのLT大会 2021 </br>
+https://meetup.unity3d.jp/jp/events/1337
+
 ## Description
 
 Unidux を利用した状態制御・画面遷移機構のサンプルプロジェクトです．</br>
