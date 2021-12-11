@@ -13,7 +13,7 @@ UniDi は Zenject をリファクタリングしたリポジトリで，実質 Z
 
 ## Dependencies
 
-* Unity 2021.2.5f1
+* Unity 2021.2.6f1
 
 ## Third Party Assets
 
